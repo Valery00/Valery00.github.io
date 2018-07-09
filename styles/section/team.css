@@ -32,15 +32,15 @@
 }
 .team__item-name {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
 }
 .team__item-work {
     font-size: 14px;
     color: #4b73b5;
-    font-weight: bold;
+    font-weight: 700;
 }
 .team__item-text {
     font-size: 14px;
-    font-weight: lighter;
+    font-weight: 300;
     margin-top: 6px;
 }

@@ -48,7 +48,7 @@
 .tariff__name {
     font-size: 10.78px;
     letter-spacing: 0.2em;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 17px;
     text-align: center;
@@ -59,7 +59,7 @@
     font-size: 18px;
     width: 183px;
     display: inline-block;
-    font-weight: lighter;
+    font-weight: 300;
     text-align: center;
     margin-left: 35px;
 }
