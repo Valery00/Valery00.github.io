@@ -1,0 +1,84 @@
+.wrapper__intro {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../img/aero.png);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    min-width: 210px;
+
+}
+
+
+.intro__inform {
+    position: absolute;
+    overflow: hidden;
+    width: 210px;
+    height: 272px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    animation: fade-in 3s, ease-in-out 2s 1;
+    animation-fill-mode: forwards;
+   
+}
+    @keyframes fade-in 
+    {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+
+.intro__logo {
+    width: 111px;
+    height: 185px;
+    display: block;
+    background-image: url(../../img/logo_intro.png);
+    margin: 0 auto;
+}
+.intro__button {
+    width: 206px;
+    height: 44px;
+    border: 1px solid #4b73b5;
+    color: #4b73b5;
+    border-radius: 3px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 46px;
+    margin-top: 40px;
+    transition: background-color 1s, color 1s;
+}
+.intro__button:hover {
+    background-color: #4b73b5;
+    color: white;
+}
+
+.intro__button:hover .intro__text::after {
+    background-image: url(../../img/spritesheet_icons.png);
+    background-position: -45px -10px;
+    background-repeat: no-repeat;
+}
+.intro__text {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.intro__text::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    background-image: url(../../img/spritesheet_icons.png);
+    background-position: -10px -10px;
+    background-repeat: no-repeat;
+    margin-left: 7px;
+    transition: all 1s;
+}

@@ -1,0 +1,92 @@
+section {
+    float: left;
+}
+
+.comment__reviews {
+    width: 876px;
+    display: inline-block;
+    min-height: 192px;
+    vertical-align: middle;
+    margin-bottom: 28px;
+}
+.comment__reviews:not(.comment__reviews--not) {
+    border-bottom-style: solid;
+    border-bottom-color: #f5f5f5;
+    border-bottom-width: 2px;
+}
+.comment__reviews:last-child {
+    margin-bottom: 22px;
+}
+.comment__reviews-information {
+    display: inline-block;
+    width: 696px;
+}
+.comment__reviews-avatar {
+    width: 160px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+.comment__reviews-date {
+    color: #656464;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 4px;
+}
+.comment__reviews-name {
+    
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.comment__reviews-text {
+    font-size: 18px;
+    
+    line-height: 30px;
+    font-weight: lighter;
+}
+.conteiner__question {
+    margin-top: 8px;
+}
+.question {
+    width: 1100px;
+    height: 170px;
+    background-image: url(../../img/rectangle.png);
+}
+.question__text {
+    color: white;
+    width: 622px;
+    margin-left: 228px;
+    margin-top: 41px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+    
+    
+.question__text-href {
+    display: inline-block;
+}
+.question__text-href:hover {
+    color: #ece7e7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

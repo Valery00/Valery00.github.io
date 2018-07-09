@@ -1,0 +1,93 @@
+.footer__col {
+    float: left;
+    width: 33.3%;
+    
+}
+.footer__col--avtor {
+    text-align: left;
+    margin-top: -3px;
+}
+.footer__col--logo {
+    text-align: center;
+}
+.footer__col--social {
+    text-align: right;
+}
+.conteiner__avtor {
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 18px;
+    margin-top: 15px;
+    width: 234px;
+    margin-left: 2px;
+}
+
+.conteiner__logo {
+    margin-top: 20px;
+}
+.conteiner__href {
+    display: inline;
+}
+.conteiner__href:hover {
+    color: #ece7e7;
+}
+.social {
+    margin-top: 16px;
+    margin-right: 3px;
+}
+.social__title {
+    font-size: 14px;
+    font-weight: bold;
+}
+.social__items {
+    font-size: 0px;
+    margin-top: 6px;
+    margin-right: 17px;
+    
+}
+.social__item:last-child {
+    margin-right: 0;
+}  
+.social__item {
+    display: inline-block;
+    margin-right: 10px;
+    background: #d2def3;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    
+    
+}
+
+/* Это нижние иконки подвала */
+
+.social__href {
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    background: url(../../img/spritesheet1.png) 0 0 no-repeat; 
+    
+    
+}
+    
+.social__href:hover {
+    background-color: #ffffff;
+    transition: background 1s;
+}
+
+.social__href--vk {
+    background: url(../../img/spritesheet1.png) -39px -17px no-repeat; 
+}
+.social__href--fb {
+    background: url(../../img/spritesheet1.png) 2px -1px no-repeat;
+}
+.social__href--google {
+    background: url(../../img/spritesheet1.png) -18px 1px no-repeat;
+}
+.social__href--twitter {
+    background: url(../../img/spritesheet1.png) -41px 1px no-repeat;
+}
+.social__href--email {
+    background: url(../../img/spritesheet1.png) -17px -18px no-repeat;
+}
+

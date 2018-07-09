@@ -1,0 +1,112 @@
+.navigation {
+    width: 107px;
+    margin-right: 74px;
+    float: left;
+    position: relative;
+}
+.navigation__item {
+    font-size: 12px;
+    color: #4b73b5;
+    margin-bottom: 25px;
+    margin-top: 1px;
+}
+.navigation__item:last-child {
+    margin: 0;
+}
+.navigation__title {
+    display: inline-block;
+    margin-top: 4px;
+    vertical-align: middle;
+    margin-left: 10px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+}
+.navigation__icon {
+    width: 23px;
+    height: 18px;
+    display: inline-block; 
+    background-position: 50% 50%;
+    vertical-align: middle;
+}
+.navigation__link--active {
+    color: #221f1f;
+}
+.navigation__icon--airoplan {
+    background: url(../../img/spritesheeticon.png) -50px -10px no-repeat;
+}
+.navigation__icon--star {
+    background: url(../../img/spritesheeticon.png) -46px -48px no-repeat;
+}
+.navigation__icon--crew {
+    background: url(../../img/spritesheeticon.png) -10px -10px no-repeat;
+} 
+.navigation__icon--airoplan::before {
+    content: "";
+    opacity: 0;
+    top: 4px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 23px;
+    height: 18px;
+    transition: opacity 1s;
+}
+.navigation__link:hover .navigation__icon--airoplan::before {
+    background: url(../../img/spritesheeticon.png);
+    background-position: -7px -48px;
+    background-repeat: no-repeat; 
+    opacity: 1;
+}
+.navigation__icon--star::before {
+    content: "";
+    opacity: 0;
+    top: 52px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 23px;
+    height: 18px;
+    transition: opacity 1s;
+}
+.navigation__link:hover .navigation__icon--star::before {
+    background: url(../../img/spritesheeticon.png);
+    background-position: -89px -10px;
+    background-repeat: no-repeat; 
+    opacity: 1;
+}
+.navigation__icon--crew::before {
+    content: "";
+    opacity: 0;
+    top: 100px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 23px;
+    height: 18px;
+    transition: opacity 1s;
+}
+.navigation__link:hover .navigation__icon--crew::before {
+    background: url(../../img/spritesheeticon.png);
+    background-position: -87px -48px;
+    background-repeat: no-repeat; 
+    opacity: 1;
+}
+ .navigation__link--active .navigation__icon--airoplan {
+    background: url(../../img/spritesheeticon.png) -7px -48px no-repeat;
+}
+.navigation__link--active .navigation__icon--star {
+    background: url(../../img/spritesheeticon.png) -89px -10px no-repeat;
+}
+.navigation__link--active .navigation__icon--crew {
+    background: url(../../img/spritesheeticon.png) -87px -48px no-repeat;
+} 
+.navigation__link:hover {
+    color: #221f1f;
+    transition: color .8s;
+}
+
+
+

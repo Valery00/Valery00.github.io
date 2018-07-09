@@ -1,0 +1,109 @@
+.image__aeroplan {
+    background-image: url(../../img/Photo.png);
+    width: 901px;
+    height: 299px;
+    margin-top: -27px;
+    
+}
+.title__tariff {
+    margin-bottom: 77px;
+    margin-top: 18px;
+}
+.title__news {
+    margin: 0;
+    margin-top: 17px;
+    margin-bottom: 75px;
+}
+
+.tariff__elem {
+    display: inline-block;
+    width: 250px;
+    min-height: 456px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 15px;
+    text-align: left;
+}
+.tariff__img {
+    display: inline-block;
+    width: 69px;
+    height: 69px;
+    background-color: #4b73b5;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    
+}
+.tariff__img--standart {
+    background-image: url(../../img/standart.png)
+}
+.tariff__img--premium {
+    background-image: url(../../img/premium.png)
+}
+.tariff__img--lacshery {
+    background-image: url(../../img/lacshery.png)
+}
+.tariff__name {
+    font-size: 10.78px;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 90px;
+}
+.tariff__text {
+    font-size: 18px;
+    width: 183px;
+    display: inline-block;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 35px;
+}
+.tariff__description {
+    line-height: 1.6;
+    font-size: 18px;
+    text-align: left;
+    width: 200px;
+    margin-left: 27px;
+    margin-top: 3px;
+}
+.tariff__text, .tariff__description {
+    line-height: 1.7;
+}
+.tariff__description-elem::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #221f1f;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+.tariff__price {
+    font-size: 53.83px;
+    vertical-align: middle;
+    margin-top: 20px;
+    line-height: 60.075px;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+
+.tariff__price::before {
+    content: "\0024";
+}
+
+.tariff__description-elem {
+    margin-bottom: 5px;
+}
+.pagination__index {
+    margin-top: 15px;
+    margin-left: 270px;
+    margin-bottom: 57px;
+}
