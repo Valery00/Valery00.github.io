@@ -7,30 +7,32 @@
 .navigation__item {
     font-size: 12px;
     color: #4b73b5;
-    margin-bottom: 25px;
-    margin-top: 1px;
+    margin-bottom: 29px;
+    margin-top: 5px;
 }
-.navigation__item:last-child {
+/* .navigation__item:last-child {
     margin: 0;
-}
+} */
 .navigation__title {
     display: inline-block;
-    margin-top: 4px;
+    
     vertical-align: middle;
-    margin-left: 10px;
+    margin-left: 13px;
     line-height: 19px;
     letter-spacing: 0.2em;
-}
-.navigation__icon {
-    width: 23px;
-    height: 18px;
-    display: inline-block; 
-    background-position: 50% 50%;
-    vertical-align: middle;
 }
 .navigation__link--active {
     color: #221f1f;
 }
+
+ .navigation__icon {
+    width: 23px;
+    height: 18px;
+     float: left;
+    background-position: 50% 50%;
+    vertical-align: middle;
+}
+
 .navigation__icon--airoplan {
     background: url(../../img/spritesheeticon.png) -50px -10px no-repeat;
 }
@@ -40,10 +42,11 @@
 .navigation__icon--crew {
     background: url(../../img/spritesheeticon.png) -10px -10px no-repeat;
 } 
+
 .navigation__icon--airoplan::before {
     content: "";
     opacity: 0;
-    top: 4px;
+    top: 5px;
     right: 0;
     left: 0;
     bottom: 0;
@@ -61,7 +64,7 @@
 .navigation__icon--star::before {
     content: "";
     opacity: 0;
-    top: 52px;
+    top: 53px;
     right: 0;
     left: 0;
     bottom: 0;
@@ -79,7 +82,7 @@
 .navigation__icon--crew::before {
     content: "";
     opacity: 0;
-    top: 100px;
+    top: 101px;
     right: 0;
     left: 0;
     bottom: 0;
@@ -106,7 +109,7 @@
 .navigation__link:hover {
     color: #221f1f;
     transition: color .8s;
-}
+} 
 
 
 

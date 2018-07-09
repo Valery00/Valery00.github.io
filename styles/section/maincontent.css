@@ -5,9 +5,10 @@
 .breadcrumbs__items {
     font-style: italic;
     margin-bottom: -9px;
+    font-weight: 300;
     position: relative;
     display: inline-block;
-    
+    opacity: 0.8;
 }
 .breadcrumbs__item {
     display: inline-block;
